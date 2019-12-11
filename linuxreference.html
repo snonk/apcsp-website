@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+<title>Linux Reference Page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Playfair+Display:900|Ubuntu+Mono|Jomolhari&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<a href="index.html">Go back to Home</a>
+<h1>Welcome to the Linux Reference Page!</h1>
+	<p>Here are commands.</p>
+<table>
+<tr>
+	<th>Command</th>
+	<th>Command Syntax</th>
+	<th>Description</th>
+	<th>Example</th>
+</tr>
+<tr>
+	<td>man</td>
+	<td class="ubuntu">man <i>command</i></td>
+	<td>Displays the help page for the specified command.</td>
+	<td class="ubuntu">man echo</td> 
+</tr>
+<tr>
+	<td>echo</td>
+	<td class="ubuntu">echo <i>string</i></td>
+	<td>Displays string in terminal.</td>
+	<td class="ubuntu">echo hello world</td>
+</tr>
+<tr>
+	<td>cd</td>
+	<td class="ubuntu">cd <i>directory</i></td>
+	<td>Changes the directory to the specified directory.</td>
+	<td class="ubuntu">cd Documents</td>
+</tr>
+<tr>
+        <td>ls</td>
+        <td class="ubuntu">ls [<i>directory</i> -al]</td>
+        <td>Lists all files and directories inside a directory. -a lists all files. -l lists details about the file.</td>
+        <td class="ubuntu">ls Pictures -al</td>
+</tr>
+<tr>
+        <td>history</td>
+        <td class="ubuntu">history</td>
+        <td>Displays command history.</td>
+        <td class="ubuntu">history</td>
+</tr>
+<tr>
+        <td>touch</td>
+        <td class="ubuntu">touch <i>file-name</i></td>
+        <td>Creates a file with the specified file name in the current directory.</td>
+        <td class="ubuntu">touch test</td>
+</tr>
+<tr>
+        <td>pwd</td>
+        <td class="ubuntu">pwd</td>
+        <td>Prints working or current directory.</td>
+        <td class="ubuntu">pwd</td>
+</tr>
+<tr>
+        <td>rm</td>
+        <td class="ubuntu">rm <i>file-or-directory</i> [-rf]</td>
+        <td>Removes the specified file or directory. -r removes recursively (everything inside a directory). -f forces removal.</td>
+        <td class="ubuntu">rm -rf Documents</td>
+</tr>
+<tr>
+        <td>mv</td>
+        <td class="ubuntu">mv <i>file-or-directory</i> <i>destination-file-or-directory</i></td>
+        <td>Moves a file or directory to a different location. Can be used to rename files.</td>
+        <td class="ubuntu">mv test Documents</td>
+</tr>
+<tr>
+        <td>cp</td>
+        <td class="ubuntu">cp <i>file-or-directory</i> <i>destination-file-or-directory</i></td>
+        <td>Copies one file or directory to another.</td>
+        <td class="ubuntu">cp test Desktop</td>
+</tr>
+<tr>
+        <td>scp</td>
+        <td class="ubuntu">scp <i>file_name</i> <i>destinationuser</i>@<i>remotehost</i>:<i>path</i></td>
+        <td>Securely copies file from one device to another.</td>
+        <td class="ubuntu">scp test sp1a@rpi01:~/Documents</td>
+</tr>
+</table>
+</body>
+</html>	
