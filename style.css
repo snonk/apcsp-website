@@ -5,7 +5,28 @@ body{
 	font-family:'Jomolhari',serif;
 }
 
+.topnav {
+    overflow: hidden;
+    background-color: saddlebrown;
+    margin-bottom: 70px;
+}
 
+.topnav a {
+    float: left;
+    display: block;
+    color: papayawhip;
+    text-align: center;
+    padding: 14px 36px;
+    text-decoration: none;
+}
+
+.topnav a:hover:not(.active) {
+    background-color: rgb(245, 223, 151);
+}
+
+#activepage {
+    background-color: rgb(217, 157, 56);
+}
 
 img{
 	margin: 0% 12.5%;
@@ -34,14 +55,15 @@ a:hover{
 }
 
 h1{
-	color:rgb(220,190,100);
+	color:rgb(100,60,10);
 	font-family:'Playfair Display', serif;
 	font-size: 80px;
-	margin: 100px;
+	margin:100px;
 	padding: 40px;
 	text-align: center;
 	letter-spacing:0.2em;
 	border: 2px solid rgb(250,230,150);
+	background-image: url("images/marble.jpg");
 }
 
 .ubuntu{
